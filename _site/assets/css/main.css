@@ -211,7 +211,7 @@ a:after {
 	background: url('../img/bg.png');
 	margin-top: -100px;
 	text-align:center;
-	background-attachment: relative;
+	background-attachment: fixed;
 	background-position: center center;
 	min-height: 600px;
 	width: 100%;
@@ -250,6 +250,10 @@ a:after {
 	text-align: center;
 }
 
+#greywrap h3 {
+    font-size: 30px;
+}
+
 #greywrap p {
 	margin-left: 30px;
 	margin-right: 30px;
@@ -263,6 +267,11 @@ a:after {
 	font-size: 60px;
 	line-height: 30px;
 	margin-bottom: 10px;
+}
+
+#portfolio h3 {
+    font-size: 30px;
+    color: #fff;
 }
 
 #footerwrap {
@@ -291,7 +300,6 @@ a:after {
     width: 100%;
     display: table;
     max-height: 450px;
-    border-bottom: 2px solid #E6EAED;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -419,7 +427,7 @@ a:after {
 	left: 0;
 	padding: 20px;
 	color: #fff;
-	background: #3498db;
+	background: #00151F;
 }
 
 .grid figcaption h5 {
@@ -439,7 +447,7 @@ a:after {
 	padding: 5px 10px;
 	margin-left: 20px;
 	display: inline-block;
-	background: #2f2f2f;
+	background: #00151F;
 	color: #fff;
 	font-size: 13px;
 }
@@ -559,12 +567,315 @@ a:after {
 }
 
 .pre-contact {
+  background: #00151F;
+    color: #fff;
+}
+
+.pre-contact h3 {
+    color: #fff;
+}
+
+#pre-portfolio {
+    background:#009CDF;
+}
+
+.tech{
   background: #F5F5F5;
+  color: #000;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.tech .container .row {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tech p span{
+	font-weight:400
+}
+
+.tech p {
+	color:#333;
+	font-size:30px;
+	font-weight:300;
+	margin-bottom:60px
+}
+
+.sprite{
+	background:url("http://heapsource.com/assets/icn/spritesheet.png") no-repeat;
+	display:inline-block
+}
+
+.sprite.logo{
+	background-position:0 0;
+	width:24px;
+	height:50px
+}
+
+.sprite.phone{
+	background-position:0 -2001px;
+	width:50px;
+	height:82px
+}
+
+.sprite.phone.active{
+	background-position:0 -64px
+}
+
+.sprite.gears{
+	background-position:0 -159px;
+	width:77px;
+	height:84px
+}
+
+.sprite.gears.active{
+	background-position:0 -2089px;
+	width:78px
+}
+
+.sprite.tools{
+	background-position:0 -250px;
+	width:92px;
+	height:73px
+}
+
+.sprite.tools.active{
+	background-position:0 -2178px;
+	height:75px
+}
+
+.sprite.stats{
+	background-position:0 -333px;
+	width:99px;
+	height:38px
+}
+
+.sprite.stats.active{
+	background-position:0 -2271px;
+	height:40px
+}
+
+.sprite.bubble{
+	background-position:0 -381px;
+	width:74px;
+	height:59px
+}
+
+.sprite.bubble.active{
+	background-position:0 -2321px;
+	width:75px
+}
+
+.sprite.nodejs{
+	background-position:0 -451px;
+	width:148px;
+	height:40px
+}
+
+.sprite.mongodb{
+	background-position:0 -500px;
+	width:140px;
+	height:40px
+}
+
+.sprite.rails{
+	background-position:0 -549px;
+	width:63px;
+	height:79px
+}
+
+.sprite.jruby{
+	background-position:0 -638px;
+	width:142px;
+	height:41px
+}
+
+.sprite.nuodb{
+	background-position:0 -691px;
+	width:110px;
+	height:73px
+}
+
+.sprite.postgresql{
+	background-position:0 -772px;
+	width:82px;
+	height:81px
+}
+
+.sprite.mysql{
+	background-position:0 -864px;
+	width:138px;
+	height:72px
+}
+
+.sprite.scala{
+	background-position:0 -946px;
+	width:132px;
+	height:39px
+}
+
+.sprite.redis{
+	background-position:0 -994px;
+	width:134px;
+	height:43px
+}
+
+.sprite.android{
+	background-position:0 -1047px;
+	width:61px;
+	height:71px
+}
+
+.sprite.rubymotion{
+	background-position:0 -1128px;
+	width:122px;
+	height:21px
+}
+
+.sprite.ios{
+	background-position:0 -1159px;
+	width:90px;
+	height:45px
+}
+
+.sprite.openshift{
+	background-position:0 -1207px;
+	width:67px;
+	height:71px
+}
+
+.sprite.amazon{
+	background-position:0 -1295px;
+	width:138px;
+	height:50px
+}
+
+.sprite.rails2{
+	background-position:0 -1355px;
+	width:63px;
+	height:79px
+}
+
+.sprite.flame{
+	background-position:0 -1447px;
+	width:72px;
+	height:68px
+}
+
+.sprite.jruby2{
+	background-position:0 -1531px;
+	width:63px;
+	height:46px
+}
+
+.sprite.rubinius{
+	background-position:0 -2465px;
+	width:65px;
+	height:62px
+}
+
+.sprite.fauna{
+	background-position:-10px -2388px;
+	width:63px;
+	height:79px
+}
+
+.sprite.iw{
+	background-position:0 -1590px;
+	width:177px;
+	height:38px
+}
+
+.sprite.nuodb2{
+	background-position:0 -1637px;
+	width:110px;
+	height:73px
+}
+
+.sprite.mail{
+	background-position:0 -1711px;
+	width:52px;
+	height:35px
+}
+
+.sprite.phone2{
+	background-position:0 -1756px;
+	width:35px;
+	height:57px
+}
+
+.sprite.address{
+	background-position:0 -1823px;
+	width:42px;
+	height:60px
+}
+
+.sprite.git{
+	background-position:0 -1900px;
+	width:23px;
+	height:23px
+}
+
+.sprite.fb{
+	background-position:0 -1933px;
+	width:24px;
+	height:24px
+}
+
+.sprite.twitter{
+	background-position:0 -1967px;
+	width:24px;
+	height:24px
+}
+
+.sprite.rubygems{
+	background-position:-64px -1967px;
+	width:24px;
+	height:24px
+}
+
+.sprite.icncode{
+	background-position:-6px -2535px;
+	width:123px;
+	height:51px
+}
+
+.sprite.logonuvado{
+	background-position:0 -2597px;
+	width:140px;
+	height:51px
+}
+
+.sprite.logoreeactr{
+	background-position:0 -2659px;
+	width:110px;
+	height:49px
 }
 
 #contact {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.pre-contact h3{
+	border-bottom:1px solid #2D4848;
+	color:#FFF;
+	font-size:16px;
+	font-weight:600;
+	line-height:1.9;
+	margin-bottom:20px;
+	max-width:111px;
+	width:100%;
+	text-transform:uppercase
+}
+
+.pre-contact .row {
+    padding-left: 100px; 
+    padding-right: 100px; 
 }
 
 #mission p {
@@ -591,6 +902,10 @@ a:after {
     color: #000;
 }
 
+#greywrap img {
+    width: 200px;
+}
+
 .team {
 	padding-top: 20px;
   color: #000;
@@ -599,12 +914,12 @@ a:after {
 .team a {
 	padding-right: 10px;
 	padding-left: 10px;
-  color: #000;
+  color: #fff;
 }
 
 .team h4,
 .team h5 {
-  color: #000;    
+  color: #fff;    
 }
 
 ul.nav.navbar-nav {
