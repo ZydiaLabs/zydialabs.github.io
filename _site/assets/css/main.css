@@ -605,255 +605,10 @@ a:after {
 	margin-bottom:60px
 }
 
-.sprite{
-	background:url("http://heapsource.com/assets/icn/spritesheet.png") no-repeat;
-	display:inline-block
-}
-
-.sprite.logo{
-	background-position:0 0;
-	width:24px;
-	height:50px
-}
-
-.sprite.phone{
-	background-position:0 -2001px;
-	width:50px;
-	height:82px
-}
-
-.sprite.phone.active{
-	background-position:0 -64px
-}
-
-.sprite.gears{
-	background-position:0 -159px;
-	width:77px;
-	height:84px
-}
-
-.sprite.gears.active{
-	background-position:0 -2089px;
-	width:78px
-}
-
-.sprite.tools{
-	background-position:0 -250px;
-	width:92px;
-	height:73px
-}
-
-.sprite.tools.active{
-	background-position:0 -2178px;
-	height:75px
-}
-
-.sprite.stats{
-	background-position:0 -333px;
-	width:99px;
-	height:38px
-}
-
-.sprite.stats.active{
-	background-position:0 -2271px;
-	height:40px
-}
-
-.sprite.bubble{
-	background-position:0 -381px;
-	width:74px;
-	height:59px
-}
-
-.sprite.bubble.active{
-	background-position:0 -2321px;
-	width:75px
-}
-
-.sprite.nodejs{
-	background-position:0 -451px;
-	width:148px;
-	height:40px
-}
-
-.sprite.mongodb{
-	background-position:0 -500px;
-	width:140px;
-	height:40px
-}
-
-.sprite.rails{
-	background-position:0 -549px;
-	width:63px;
-	height:79px
-}
-
-.sprite.jruby{
-	background-position:0 -638px;
-	width:142px;
-	height:41px
-}
-
-.sprite.nuodb{
-	background-position:0 -691px;
-	width:110px;
-	height:73px
-}
-
-.sprite.postgresql{
-	background-position:0 -772px;
-	width:82px;
-	height:81px
-}
-
-.sprite.mysql{
-	background-position:0 -864px;
-	width:138px;
-	height:72px
-}
-
-.sprite.scala{
-	background-position:0 -946px;
-	width:132px;
-	height:39px
-}
-
-.sprite.redis{
-	background-position:0 -994px;
-	width:134px;
-	height:43px
-}
-
-.sprite.android{
-	background-position:0 -1047px;
-	width:61px;
-	height:71px
-}
-
-.sprite.rubymotion{
-	background-position:0 -1128px;
-	width:122px;
-	height:21px
-}
-
-.sprite.ios{
-	background-position:0 -1159px;
-	width:90px;
-	height:45px
-}
-
-.sprite.openshift{
-	background-position:0 -1207px;
-	width:67px;
-	height:71px
-}
-
-.sprite.amazon{
-	background-position:0 -1295px;
-	width:138px;
-	height:50px
-}
-
-.sprite.rails2{
-	background-position:0 -1355px;
-	width:63px;
-	height:79px
-}
-
-.sprite.flame{
-	background-position:0 -1447px;
-	width:72px;
-	height:68px
-}
-
-.sprite.jruby2{
-	background-position:0 -1531px;
-	width:63px;
-	height:46px
-}
-
-.sprite.rubinius{
-	background-position:0 -2465px;
-	width:65px;
-	height:62px
-}
-
-.sprite.fauna{
-	background-position:-10px -2388px;
-	width:63px;
-	height:79px
-}
-
-.sprite.iw{
-	background-position:0 -1590px;
-	width:177px;
-	height:38px
-}
-
-.sprite.nuodb2{
-	background-position:0 -1637px;
-	width:110px;
-	height:73px
-}
-
-.sprite.mail{
-	background-position:0 -1711px;
-	width:52px;
-	height:35px
-}
-
-.sprite.phone2{
-	background-position:0 -1756px;
-	width:35px;
-	height:57px
-}
-
-.sprite.address{
-	background-position:0 -1823px;
-	width:42px;
-	height:60px
-}
-
-.sprite.git{
-	background-position:0 -1900px;
-	width:23px;
-	height:23px
-}
-
-.sprite.fb{
-	background-position:0 -1933px;
-	width:24px;
-	height:24px
-}
-
-.sprite.twitter{
-	background-position:0 -1967px;
-	width:24px;
-	height:24px
-}
-
-.sprite.rubygems{
-	background-position:-64px -1967px;
-	width:24px;
-	height:24px
-}
-
-.sprite.icncode{
-	background-position:-6px -2535px;
-	width:123px;
-	height:51px
-}
-
-.sprite.logonuvado{
-	background-position:0 -2597px;
-	width:140px;
-	height:51px
-}
-
-.sprite.logoreeactr{
-	background-position:0 -2659px;
-	width:110px;
-	height:49px
+.i-responsive {
+  display: block;
+  max-width: 100%;
+  height: 100px;
 }
 
 #contact {
@@ -903,7 +658,29 @@ a:after {
 }
 
 #greywrap img {
-    width: 200px;
+    width: 160px;
+}
+
+#lets {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#lets h1 {
+    font-size: 45px;
+}
+
+#lets a {
+  border-radius: 6px;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 60px;
+  text-align: center;
+  background: #00151F;
+  border: none;
 }
 
 .team {

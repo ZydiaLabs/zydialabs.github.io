@@ -7,6 +7,7 @@ url: "http://zydialabs.com"
 twitter_username: ZydiaLabs
 github_username:  ZydiaLabs
 paginate: 20
+paginate_path: "blog/page:num"
 
 # Build settings
 markdown: kramdown
