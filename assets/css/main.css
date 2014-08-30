@@ -208,7 +208,7 @@ a:after {
 }
 
 #headerwrap {
-    background: url('../img/bg.png');
+    background: #FF0022;
     text-align:center;
     background-attachment: fixed;
     background-position: center center;
@@ -524,6 +524,10 @@ a:after {
   border: none;
 }
 
+#lets img {
+    width: 300px;
+}
+
 .team {
     padding-top: 20px;
   color: #000;
@@ -547,7 +551,7 @@ a:after {
 ul.nav.navbar-nav {
     position: absolute; 
     left: 50%; 
-    margin-left: -150px;
+    margin-left: -120px;
 }
 
 .g {
