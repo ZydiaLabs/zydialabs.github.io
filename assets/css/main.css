@@ -269,12 +269,12 @@ a:after {
 }
 
 #portfolio {
-    background: #EBEBEB;
+    background: #FF0022;
 }
 
 #portfolio h3 {
     font-size: 30px;
-    color: #333;
+    color: #fff;
 }
 
 .section-divider {
@@ -363,7 +363,7 @@ a:after {
   padding-top: 10px;
   padding-bottom: 30px;
     
-  background: url('../img/bg.png');
+  background: #00151F;
     text-align:center;
     background-attachment: relative;
     background-position: center center;
@@ -508,6 +508,10 @@ a:after {
     font-size: 45px;
 }
 
+#lets p {
+    font-size: 20px;
+}
+
 #lets a {
   border-radius: 6px;
   color: white;
@@ -516,7 +520,7 @@ a:after {
   display: inline-block;
   line-height: 60px;
   text-align: center;
-  background: #009CDF;
+  background: #FF0022;
   border: none;
 }
 
@@ -638,7 +642,7 @@ ul.nav.navbar-nav {
   height: 100%;
   opacity: 0;
   border-radius: 0;
-  background: #c52d2f;
+  background: #FF0022;
   color: #fff;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
@@ -646,6 +650,14 @@ ul.nav.navbar-nav {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;  
   padding: 30px;
+}
+
+.recent-work-wrap .overlay h3 {
+    color: #fff;
+}
+
+.recent-work-wrap .overlay.blue {
+    background: #009CDF;
 }
 
 .recent-work-wrap .overlay .preview {
