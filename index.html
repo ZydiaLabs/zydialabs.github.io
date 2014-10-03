@@ -3,126 +3,198 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zydialabs home page">
-    <meta name="author" content="Zydialabs team">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
-    <title>ZydiaLabs | Home</title>
+
+    <title>ZydiaLabs</title>
+
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/fa.css">
-    <link href="assets/css/animate-custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+	
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    <script src="assets/js/jquery.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-  	<div id="navbar-main">
-	    <div class="navbar-inverse">
-	      <div class="container">
-	        <div class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav">
-	            <li><a href="/" class="smoothScroll">Home</a></li>
-				<li> <a href="/labs" class="smoothScroll"> Labs</a></li>
-				<li> <a href="/about" class="smoothScroll"> About</a></li>
-			  </ul>
-	        </div>
-	      </div>
-	    </div>
-    </div>
 
-    <div id="headerwrap" id="home" name="home">
-		<header class="clearfix">
-  		 		<h1>Yes, we code!</h1>
-  		</header>	    
-    </div>
-
-    <section id="mission" class="section-divider textdivider divider6">
-		<div class="container">
-			<p>We improve and create new experiences for users and developers. If can<br>
-			 be imagined, we can code it. </p>
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<a href="/" class="smoothScroll">Home</a>
+			<a href="consulting/" class="smoothScroll">Consulting</a>
+			<a href="work/" class="smoothScroll">Work</a>
+			<a href="labs/" class="smoothScroll">Labs</a>
+			<a href="team/" class="smoothScroll">Team</a>
+			<a href="blog/" class="smoothScroll">Blog</a>
+			<a href="about/" class="smoothScroll">About</a>
+			<a href="#"><i class="icon-facebook"></i></a>
+			<a href="#"><i class="icon-twitter"></i></a>
+			<a href="#"><i class="icon-dribbble"></i></a>
+			<a href="#"><i class="icon-envelope"></i></a>
 		</div>
-	</section>
-
-		<div id="greywrap" class="container">
+		
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="assets/img/logo.svg">
+				</div>
+				<div id="textLogo" class="col-lg-6">
+					<h1>ZydiaLabs</h1>
+					<h2>Yes, we code!</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="w">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h3>We work to improve and create new experiences for <bold>users</bold> and <bold>developers</bold>. If can be imagined, we can code it.</h3> 
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="g">
+		<div class="container">
 			<div class="row">
 				<h3>OUR SERVICES</h3>
 				<br>
 				<br>
-				<div class="col-lg-3 callout">
-					<img src="assets/img/mobile-dev.png">
-					<h3>Mobile development</h3>
-					<p>We design, develop and publish fully interactive and visually appealing mobile apps. We show you how mobile market can make real your dreams. </p>
+				<div class="col-lg-3">
+					<img src="assets/img/services/molecules.svg">
+					<h4>Mobile development</h4>
+					<p>We design, develop and publish fully interactive and visually appealing mobile apps. We show you how mobile market can make real your dreams.</p>
 				</div>
-					
-				<div class="col-lg-3 callout">
-					<img src="assets/img/talks.png">
-					<h3>Training and talks</h3>
-					<p>We provide private training and talks to companies about our areas of expertise. We customize our existing classes to meet the needs of your company. </p>
-				</div>	
-				
-				<div class="col-lg-3 callout">
-					<img src="assets/img/website.png">
-					<h3>UX/UI & Web design</h3>
+				<div class="col-lg-3">
+					<img src="assets/img/services/atom.svg">
+					<h4>Training and talks</h4>
+					<p>We provide private training and talks to companies about our areas of expertise. We customize our existing classes to meet the needs of your company.</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="assets/img/services/eye.svg">
+					<h4>UX/UI & Web design</h4>
 					<p>We conceptualize and design awesome products & services, focusing mainly on functionality, usability and esthetics. </p>
-				</div>	
-
-				<div class="col-lg-3 callout">
-					<img src="assets/img/full-stack.png">
-					<h3>API development</h3>
+				</div>
+				<div class="col-lg-3">
+					<img src="assets/img/services/structure.svg">
+					<h4>API development</h4>
 					<p>We build full-stack applications and web services. We are specialist tuning and optimizing backends for rich web, mobile and third party applications. </p>
 				</div>
 			</div>
 		</div>
+	</div>
 
-	<section id="recent-works">
-        <div class="container-fluid">
-            <h3>We build software that people love!</h3>
-            <br>
-            <br>
-            <div class="row">
+	<div id="dg">
+		<div class="container">
+			<div class="row centered">
+				<h3>OUR WORK</h3>
+				<p>We make it a priority to spend part of our time developing and designing our own applications so <br>
+				that we can optimize our internal processes and tools. There is only one rule: every product we <br>
+				make must be something we would love to use every single day. As a result our offices have <br>
+				become an incubator to innovation — and the very best of those ideas get taken to fruition in<br> 
+				the ZydiaLabs.</p>
+				<br>
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href="#"><img src="assets/img/work/p01.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href="#"><img src="assets/img/work/p03.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href="#"><img src="assets/img/work/p02.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="stats">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4"></div>
+				<div class="col-lg-4">
+					<div class="row">
+						<div id="black" class="container pt">
+							<div align="center" class="col-lg-4">
+								<h1>3</h1>
+								<hr>
+								<h4>Clients</h4>
+							</div>
+
+							<div align="center" class="col-lg-4">
+								<h1>5</h1>
+								<hr>
+								<h4>Projects</h4>
+							</div>
+
+							<div align="center" class="col-lg-4">
+								<h1>0</h1>
+								<hr>
+								<h4>Events</h4>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4"></div>
+			</div>
+			<br>
+			<a href="work/"><span class="icon icon-arrow-right"></span> See all our work</a>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+
+	<div id="body-complete">
+		<div class="container-fluid">
+			<h3>LABS</h3>
+			<p> Open-Source is part of our DNA,
+			our Forge is full of community contributions and in-house made utilities:</p>
+			<br>
+			<br>
+			<div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
                 	<a href="#">
 	                    <div class="recent-work-wrap">
-	                        <img class="img-responsive" src="assets/img/portfolio/item1.png" alt="">
-	                        <div class="overlay">
-	                            <div class="recent-work-inner">
-	                                <h3>Business theme </h3>
-	                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-	                                <i class="icon icon-eye"></i> View
-	                            </div>
-	                        </div>
+	                        <img class="img-responsive" src="assets/img/labs/item1.png" alt="">
 	                    </div>
                     </a>
                 </div>   
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                 	<a href="#">
-	                    <div class="recent-work-wrap">
-	                    	<a href="">
-		                        <img class="img-responsive" src="assets/img/portfolio/item2.png" alt="">
-		                        <div class="overlay blue">
-		                            <div class="recent-work-inner">
-		                                <h3>Business theme</h3>
-		                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-		                                <i class="icon icon-eye"></i> View
-		                            </div>
-	                        </div>
-	                        </a>
-	                    </div>
+                    	<div class="recent-work-wrap">
+	                        <img class="img-responsive" src="assets/img/labs/item2.png" alt="">
+	                	</div>
                     </a>
                 </div> 
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
                 	<a href="">
 	                    <div class="recent-work-wrap">
-	                        <img class="img-responsive" src="assets/img/portfolio/item3.png" alt="">
-	                        <div class="overlay">
-	                            <div class="recent-work-inner">
-	                                <h3>Business theme </h3>
-	                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-	                                <i class="icon icon-eye"></i> View
-	                            </div> 
-	                        </div>
+	                        <img class="img-responsive" src="assets/img/labs/item3.png" alt="">
 	                    </div>
                     </a>
                 </div>   
@@ -130,14 +202,7 @@
                 <div class="col-xs-12 col-sm-4 col-md-3">
                 	<a href="#">
 	                    <div class="recent-work-wrap">
-	                        <img class="img-responsive" src="assets/img/portfolio/item4.png" alt="">
-	                        <div class="overlay blue">
-	                            <div class="recent-work-inner">
-	                                <h3>Business theme </h3>
-	                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-	                                <i class="icon icon-eye"></i> View
-	                            </div> 
-	                        </div>
+	                        <img class="img-responsive" src="assets/img/labs/item4.png" alt="">
 	                    </div>
                     </a>
                 </div>   
@@ -145,14 +210,7 @@
                 <div class="col-xs-12 col-sm-4 col-md-3">
                 	<a href="#">
 	                    <div class="recent-work-wrap">
-	                        <img class="img-responsive" src="assets/img/portfolio/item5.png" alt="">
-	                        <div class="overlay">
-	                            <div class="recent-work-inner">
-	                                <h3>Business theme</h3>
-	                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-	                                <i class="icon icon-eye"></i> View
-	                            </div> 
-	                        </div>
+	                        <img class="img-responsive" src="assets/img/labs/item5.png" alt="">
 	                    </div>
                     </a>
                 </div>   
@@ -160,14 +218,7 @@
                 <div class="col-xs-12 col-sm-4 col-md-3">
                 	<a href="#">
 	                    <div class="recent-work-wrap">
-	                        <img class="img-responsive" src="assets/img/portfolio/item6.png" alt="">
-	                        <div class="overlay blue">
-	                            <div class="recent-work-inner">
-	                                <h3>Business theme </h3>
-	                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-	                                <i class="fa fa-eye"></i> View
-	                            </div> 
-	                        </div>
+	                        <img class="img-responsive" src="assets/img/labs/item6.png" alt="">
 	                    </div>
                     </a>
                 </div> 
@@ -175,14 +226,7 @@
                 <div class="col-xs-12 col-sm-4 col-md-3">
                 	<a href="#">
 	                    <div class="recent-work-wrap">
-	                        <img class="img-responsive" src="assets/img/portfolio/item7.png" alt="">
-	                        <div class="overlay">
-	                            <div class="recent-work-inner">
-	                                <h3>Business theme </h3>
-	                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-	                                <i class="icon icon-eye"></i> View
-	                            </div> 
-	                        </div>
+	                        <img class="img-responsive" src="assets/img/labs/item7.png" alt="">
 	                    </div>
                     </a>
                 </div>   
@@ -190,58 +234,51 @@
                 <div class="col-xs-12 col-sm-4 col-md-3">
                 	<a href="#">
 	                    <div class="recent-work-wrap">
-	                        <img class="img-responsive" src="assets/img/portfolio/item8.png" alt="">
-	                        <div class="overlay blue">
-	                            <div class="recent-work-inner">
-	                                <h3>Business theme </h3>
-	                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-	                                <i class="icon icon-eye"></i> View
-	                            </div> 
-	                        </div>
+	                        <img class="img-responsive" src="assets/img/labs/item8.png" alt="">
 	                    </div>
 	                </a>
                 </div>   
             </div>
-        </div>
-    </section>
+		</div>
+	</div>
 
-    <div class="tech">
+	<div class="tech">
 		<div class="container">
-			<p>We are not a <span>"one size fits all"</span> like company.<br>We carefully pick up right technologies for your needs.</p>
+			<h3>We are not a <bold>"one size fits all"</bold> like company.<br>We carefully pick up right technologies for your needs.</h3>
 			<div class="row">
 				<div class="col-lg-2" align="center">
-					<a href="http://nodejs.org"><img align="center" class="i-responsive" src="assets/img/nodejs.png"></a>
+					<a href="http://nodejs.org"><img align="center" class="i-responsive" src="assets/img/tools/nodejs.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://gruntjs.org"><img align="center" class="i-responsive" src="assets/img/grunt.png"></a>
+					<a href="http://gruntjs.org"><img align="center" class="i-responsive" src="assets/img/tools/grunt.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://mongodb.com"><img align="center" class="i-responsive" src="assets/img/mongodb.png"></a>
+					<a href="http://mongodb.com"><img align="center" class="i-responsive" src="assets/img/tools/mongodb.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://sass-lang.com"><img align="center" class="i-responsive" src="assets/img/sass.png"></a>
+					<a href="http://sass-lang.com"><img align="center" class="i-responsive" src="assets/img/tools/sass.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://ruby-lang.org"><img align="center" class="i-responsive" src="assets/img/ruby.png"></a>
+					<a href="http://ruby-lang.org"><img align="center" class="i-responsive" src="assets/img/tools/ruby.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://android.com"><img align="center" class="i-responsive" src="assets/img/android.png"></a>
+					<a href="http://android.com"><img align="center" class="i-responsive" src="assets/img/tools/android.png"></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-2" align="center">
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://rubyonrails.org"><img align="center" class="i-responsive" src="assets/img/rails.png"></a>
+					<a href="http://rubyonrails.org"><img align="center" class="i-responsive" src="assets/img/tools/rails.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://apple.com/ios"><img align="center" class="i-responsive" src="assets/img/ios.png"></a>
+					<a href="http://apple.com/ios"><img align="center" class="i-responsive" src="assets/img/tools/ios.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://travis-ci.com"><img align="center" class="i-responsive" src="assets/img/travis.png"></a>
+					<a href="http://travis-ci.com"><img align="center" class="i-responsive" src="assets/img/tools/travis.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
-					<a href="http://coffeescript.org"><img align="center" class="i-responsive" src="assets/img/coffeescript.png"></a>
+					<a href="http://coffeescript.org"><img align="center" class="i-responsive" src="assets/img/tools/coffeescript.png"></a>
 				</div>
 				<div class="col-lg-2" align="center">
 				</div>
@@ -249,27 +286,45 @@
 		</div>
 	</div>
 
-	<div id="lets">
+	<div id="more">
 		<div class="container">
-			<h3>CONTACT US</h3>
-			<br>
-			<br>
-			<div class="row">
-				<div class="col-lg-6" align="center">
-					<img class="img-responsive" src="assets/img/logo.png">
-				</div>		
-				<div class="col-lg-6">
-					<br>
-					<br>
-					<p>We are a team of humans dedicated to building remarkable applications. Working with us gets you access to our full suite of digital services. </p>
-					<br>
-					<br>
-					<a class="btn btn-primary btn-lg" href="/consulting">Let's work together!</a>
-				</div>		
-			</div>
+			<h3>Not enough for you?</h3>
+			<a href="labs/"><button class="btn">All projects and contributions</button></a>
 		</div>
 	</div>
 
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row">
+				<h3>BRANDS & CLIENTS</h3>
+				<div class="col-lg-2 port-space">
+				</div>
+				<div class="col-lg-2 port-space">
+					<img src="assets/img/clients/secbox.svg">
+				</div>
+				<div class="col-lg-2 port-space">
+					<img src="assets/img/clients/bricksframework.svg">
+				</div>	
+				<div class="col-lg-2 port-space">
+					<img src="assets/img/clients/secbox.svg">
+				</div>	
+				<div class="col-lg-2 port-space">
+					<img src="assets/img/clients/secbox.svg">
+				</div>	
+				<div class="col-lg-2 port-space">
+				</div>				
+			</div>	
+		</div>
+	</div>
+
+	<a href="consulting/">
+		<div id="startT">
+			<div class="container">
+				<h3>Let's work together!</h3>
+			</div>
+		</div>
+	</a>
+	
 	<div class="pre-contact">
 		<div class="container" id="contact" name="contact">
 			<div class="row">
@@ -315,5 +370,10 @@
 			</div>
 		</div>
 	</div>
-  </body>
+	
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
 </html>
