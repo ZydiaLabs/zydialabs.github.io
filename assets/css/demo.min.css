@@ -10485,8 +10485,7 @@ pre{
 .section{
 	position:relative;
 	z-index:4;
-	padding:96px 0
-}
+	padding:96px 0}
 
 .section.has-bottom{
 	z-index:5
@@ -24860,7 +24859,7 @@ table .price{
 }
 
 .swatch-red-white.navbar,[class*=swatch-] .swatch-red-white.navbar{
-	background:#009CDF;
+	background:rgba(0, 21, 31, 0.8);
 	color:#fff
 }
 
@@ -24917,7 +24916,7 @@ table .price{
 }
 
 .swatch-red-white.navbar-scrolled,[class*=swatch-] .swatch-red-white.navbar-scrolled{
-	background:#009CDF;
+	background:rgba(0, 21, 31, 0.9);
 	-webkit-box-shadow:0 4px 0 #01A2E7;
 	-moz-box-shadow:0 4px 0 #01A2E7;
 	box-shadow:0 4px 0 #01A2E7
@@ -25261,7 +25260,7 @@ table .price{
 }
 
 .swatch-red-white .box-inner i,[class*=swatch-] .swatch-red-white .box-inner i{
-	color:#e74c3c
+	color:#009CDF
 }
 
 .swatch-red-white .box-badge,[class*=swatch-] .swatch-red-white .box-badge{
@@ -29258,7 +29257,7 @@ table .price{
 }
 
 .swatch-white-red .hex,[class*=swatch-] .swatch-white-red .hex{
-	background-color:#e74c3c;
+	background-color:#009CDF;
 	color:#fff
 }
 
@@ -29267,11 +29266,11 @@ table .price{
 }
 
 .swatch-white-red .hex:before,[class*=swatch-] .swatch-white-red .hex:before{
-	border-bottom-color:#e74c3c
+	border-bottom-color:#009CDF
 }
 
 .swatch-white-red .hex:after,[class*=swatch-] .swatch-white-red .hex:after{
-	border-top-color:#e74c3c
+	border-top-color:#009CDF
 }
 
 .swatch-white-red .hex-left:after,.swatch-white-red .hex-left:before,.swatch-white-red .hex-right:after,.swatch-white-red .hex-right:before,[class*=swatch-] .swatch-white-red .hex-left:after,[class*=swatch-] .swatch-white-red .hex-left:before,[class*=swatch-] .swatch-white-red .hex-right:after,[class*=swatch-] .swatch-white-red .hex-right:before{
