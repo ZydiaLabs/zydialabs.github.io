@@ -24859,7 +24859,7 @@ table .price{
 }
 
 .swatch-red-white.navbar,[class*=swatch-] .swatch-red-white.navbar{
-	background:rgba(0, 21, 31, 0.8);
+	background:#47B1DD;
 	color:#fff
 }
 
@@ -24892,10 +24892,10 @@ table .price{
 }
 
 .swatch-red-white .dropdown-menu,[class*=swatch-] .swatch-red-white .dropdown-menu{
-	background: rgba(231, 76, 60, 0.86);
-	-webkit-box-shadow:0 1px 2px rgba(0,0,0,.1),0 4px 0 rgba(223,46,27,.3);
-	-moz-box-shadow:0 1px 2px rgba(0,0,0,.1),0 4px 0 rgba(223,46,27,.3);
-	box-shadow:0 1px 2px rgba(0,0,0,.1),0 4px 0 rgba(223,46,27,.3)
+	background: #47B1DD;
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,.1),0 4px 0 #01A2E7;
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,.1),0 4px 0 #01A2E7;
+	box-shadow:0 1px 2px rgba(0,0,0,.1),0 4px 0 #01A2E7;
 }
 
 .swatch-red-white .dropdown-menu>li>a,[class*=swatch-] .swatch-red-white .dropdown-menu>li>a{
@@ -24916,7 +24916,7 @@ table .price{
 }
 
 .swatch-red-white.navbar-scrolled,[class*=swatch-] .swatch-red-white.navbar-scrolled{
-	background:rgba(0, 21, 31, 0.9);
+	background:#47B1DD;
 	-webkit-box-shadow:0 4px 0 #01A2E7;
 	-moz-box-shadow:0 4px 0 #01A2E7;
 	box-shadow:0 4px 0 #01A2E7
@@ -25328,7 +25328,7 @@ table .price{
 }
 
 .swatch-red-white .hex-left:after,.swatch-red-white .hex-left:before,.swatch-red-white .hex-right:after,.swatch-red-white .hex-right:before,[class*=swatch-] .swatch-red-white .hex-left:after,[class*=swatch-] .swatch-red-white .hex-left:before,[class*=swatch-] .swatch-red-white .hex-right:after,[class*=swatch-] .swatch-red-white .hex-right:before{
-	background-color:#009CDF
+	background-color:#00151F;
 }
 
 .swatch-red-white .pricing-body,.swatch-red-white .pricing-head,[class*=swatch-] .swatch-red-white .pricing-body,[class*=swatch-] .swatch-red-white .pricing-head{
@@ -30813,4 +30813,49 @@ body.layout-boxed{
 
 .no-top-padding {
 	padding-top: 0;
+}
+
+.no-bottom-padding {
+	padding-bottom: 0px;
+}
+
+.sticky-wrapper {
+	background: #47B1DD;
+}
+
+.box-round .box-inner.no-circled {
+	border-radius:0;
+}
+
+.box-round .box-inner.no-background {
+	background: none;
+}
+
+.swatch-red-white.black{
+	background:#00151F;
+	color:#fff
+}
+
+.bg-white {
+	background: #fff;
+}
+
+.bg-white svg path {
+	fill: #009CDF;
+}
+
+.bg-white-b svg path {
+	fill: #00151F;
+}
+
+.bg-white-b-inv {
+	background: #00151F;
+}
+
+.bg-white-b-inv svg path {
+	fill: #FFF;
+}
+
+.doble-padding-ontop {
+	padding-top: 180px;
 }
