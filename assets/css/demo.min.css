@@ -24859,7 +24859,7 @@ table .price{
 }
 
 .swatch-red-white.navbar,[class*=swatch-] .swatch-red-white.navbar{
-	background:#47B1DD;
+	background:#172931;
 	color:#fff
 }
 
@@ -24916,7 +24916,7 @@ table .price{
 }
 
 .swatch-red-white.navbar-scrolled,[class*=swatch-] .swatch-red-white.navbar-scrolled{
-	background:#47B1DD;
+	background:#00151F;
 	-webkit-box-shadow:0 4px 0 #01A2E7;
 	-moz-box-shadow:0 4px 0 #01A2E7;
 	box-shadow:0 4px 0 #01A2E7
@@ -30820,7 +30820,7 @@ body.layout-boxed{
 }
 
 .sticky-wrapper {
-	background: #47B1DD;
+	background: #1C1E20;
 }
 
 .box-round .box-inner.no-circled {
@@ -30848,12 +30848,20 @@ body.layout-boxed{
 	fill: #00151F;
 }
 
-.bg-white-b-inv {
-	background: #00151F;
+.bg-inv {
+	background: #F0C40F;
 }
 
-.bg-white-b-inv svg path {
-	fill: #FFF;
+.bg-inv svg path {
+	fill: #1C1E20;
+}
+
+.bg-inv- {
+	background: #1C1E20;
+}
+
+.bg-inv- svg path {
+	fill: #F0C40F;
 }
 
 .doble-padding-ontop {
