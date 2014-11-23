@@ -5,15 +5,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Blog | ZydiaLabs</title>
-        <link rel="icon" type="image/x-icon" href="assets/images/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="assets/images/favicons/favicon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/images/favicons/apple-touch-icon-60x60-precomposed.png">
+        <title>Home | ZydiaLabs</title>
+        <link rel="icon" type="image/x-icon" href="{{ "/assets/images/favicons/favicon.ico" | prepend: site.baseurl }}">
+        <link rel="icon" type="image/png" href="{{ "/assets/images/favicons/favicon.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "/assets/images/favicons/apple-touch-icon-114x114-precomposed.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ "/assets/images/favicons/apple-touch-icon-72x72-precomposed.png" | prepend: site.baseurl }}">
+        <link rel="apple-touch-icon-precomposed" href="{{ "/assets/images/favicons/apple-touch-icon-60x60-precomposed.png" | prepend: site.baseurl }}">
         <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic"
         rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="assets/css/demo.min.css">
+        <link rel="stylesheet" href="{{ "/assets/css/demo.min.css" | prepend: site.baseurl }}">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
 
@@ -105,20 +105,9 @@
             </div>
         </header>
         <div id="content" role="main">
-            <div class="home">
-                <h1 class="page-heading">Posts</h1>
-                <ul class="post-list">
-                  {% for post in site.posts %}
-                    <li>
-                      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                      <h2>
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                      </h2>
-                    </li>
-                  {% endfor %}
-                </ul>
-                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-            </div>
+            <section align="center">
+                <p>Comming Soon!</p>
+            </section>
         </div>
         <footer id="footer" role="contentinfo">
                 <section class="section section-black-blue">
