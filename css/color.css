@@ -25,9 +25,17 @@ input.submit,
     background-color: #009CDF;
 }
 
+.headline-wrapper {
+    background: #1C1E20;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
 .button:hover,
 input.submit:hover {
-    background: #56c16b;
+    background: #009CDF;
 }
 
 #work-preview .layer {
@@ -85,7 +93,7 @@ a,
 }
 
 #open-nav:hover {
-    color: #56c16b;
+    color: #009CDF;
 }
 
 body,
@@ -155,7 +163,7 @@ p.blockquote,
 
 .button:hover,
 input.submit:hover {
-    border-color: #56c16b;
+    border-color: #009CDF;
 }
 
 .tab-content-navi,

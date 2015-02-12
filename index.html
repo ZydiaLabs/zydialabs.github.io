@@ -28,28 +28,6 @@
 	<script type="text/javascript" src="scripts/modernizr.custom.97074.js"></script>
 </head>
 <body>
-	<header id="header">
-	    <div class="logo-wrapper">
-	        <a id="logo" href="index.html"><img src="images/layout/flato-logo.png" alt="FLATO" /></a>
-	    </div>
-
-	    <ul id="main-navigation">
-	        <li><a class="active" href="#banner">Home</a></li>
-	        <li><a href="#work">Work</a></li>
-	        <li><a href="#service">Service</a></li>
-	        <li><a href="#contact">Contact</a></li>
-	    </ul>
-
-	    <div class="social-links">
-	        <a href="https://twitter.com/ZydiaLabs"><i class="fa fa-twitter"></i></a>
-	        <a href="https://facebook.com/ZydiaLabs"><i class="fa fa-facebook"></i></a>
-	        <a href="https://github.com/ZydiaLabs"><i class="fa fa-github"></i></a>
-	    </div>
-		
-	    <a id="open-nav"><i class="fa fa-bars"></i></a>
-	</header>
-
-
 <div id="page-wrapper">
     <section id="banner" class="section parallax">
         <div class="banner-container">
@@ -59,10 +37,6 @@
             <span class="small-text">
                 Yes, we <span class="color">code</span>!
             </span>
-            <div class="button-wrapper">
-                <a class="button scrollto" href="#work">Our work</a>
-                <a class="button border" href="#contact">Contact</a>
-            </div>
         </div>
 		
         <div class="scroll-down">
@@ -70,29 +44,16 @@
         </div>
     </section>
 
-
-    <section id="work" class="section">
-        <div class="headline-wrapper">
-            <div class="row">
+    <section id="work" class="section">		
+        <div class="work-container">	
+        	<div style="text-align: center;" class="row">
                 <h1 class="underline">
-					Our Work
+					<span>Our <span class="color">Work</span></span>
 				</h1>
                 <p class="undertitle">
 					We are not a "one size fits all" like company. We carefully pick up right technologies for your needs.
 				</p>
             </div>
-        </div>
-		
-        <div id="work-wrapper">
-            <div class="close">
-                <a id="close-work-wrapper"></a>
-            </div>
-			<div id="work-loader"><img src="images/layout/color_loader.gif" alt="" /></div>
-			<div id="load-work-content">
-			</div>
-        </div>
-		
-        <div class="work-container">	
         	<div class="row">
                 <ul class="work-tabs">
                     <li class="filter active" data-filter="all">
@@ -102,21 +63,21 @@
             </div>				
 	   	 	<ul id="work-preview">
 				<li class="mix webdesign">
-					<a data-work-link="#work-01.html">
+					<a href="#work-01.html">
 						<img src="images/work/thumbnail-01.jpg" alt="" />
 						<div class="layer">
-							<h4 class="underline">Ghost Theme</h4>
-							<span class="client">Client / <i>Themeforest</i></span>
+							<h4 class="underline">Jake CI</h4>
+							<span class="client">Minimal Continous Integration platform</span>
 						</div>
 					</a>
 				</li>
 				
 				<li class="mix html">
-					<a data-work-link="#work-02.html">
+					<a href="http://unrealwargame.com" target="_blank">
 						<img src="images/work/thumbnail-02.jpg" alt="" />
 						<div class="layer">
-							<h4 class="underline">Responsive Design</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
+							<h4 class="underline">UnrealWargame</h4>
+                            <span class="client">Security wargame platform</span>
 						</div>
 					</a>
 				</li>
@@ -125,8 +86,8 @@
 					<a data-work-link="#work-03.html">
 						<img src="images/work/thumbnail-03.jpg" alt="" />
 						<div class="layer">
-							<h4 class="underline">Another Work</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
+							<h4 class="underline">Markdown Together</h4>
+                            <span class="client">Collaborative markdown editor for teams</span>
 						</div>
 					</a>
 				</li>
@@ -195,13 +156,13 @@
     </section>
 
     <section id="team">
-        <div class="headline-wrapper">
+        <div class="headline-wrapper no-margin-bottom">
             <div class="row">
-                <h1 class="underline">
+                <h2 class="underline">
 					Projects we support
-				</h1>
+				</h2>
                 <p class="undertitle">
-					Open source is part of our DNA.
+					Open source is part of our DNA. We develop things that people love.
 				</p>
             </div>
         </div>
@@ -213,9 +174,10 @@
                     <span class="name">Bricks Framework</span>
                     <span class="function">CSS and Javascript framework</span>
                     <div class="social-icons">
-                        <a href=""><i class="fa fa-twitter"></i></a>
-                        <a href=""><i class="fa fa-facebook"></i></a>
-                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    	<a href="http://bricksframework.com"><i class="fa fa-link"></i></a>
+                        <a href="https://twitter.com/BricksFramework"><i class="fa fa-twitter"></i></a>
+                        <a href="https://facebook.com/BricksFramework"><i class="fa fa-facebook"></i></a>
+                        <a href="https://github.com/BricksFramework"><i class="fa fa-github"></i></a>
                     </div>
                 </div>
             </div>
@@ -223,8 +185,8 @@
             <div class="col span_4">
                 <div class="team-member">
                     <img class="member-img" src="images/team/sarah-doe.jpg" alt="Sarah Doe" />
-                    <span class="name">Sarah Doe</span>
-                    <span class="function">Webdesigner</span>
+                    <span class="name">TBD</span>
+                    <span class="function">TBD</span>
                     <div class="social-icons">
                         <a href=""><i class="fa fa-twitter"></i></a>
                         <a href=""><i class="fa fa-facebook"></i></a>
@@ -236,8 +198,8 @@
             <div class="col span_4">
                 <div class="team-member">
                     <img class="member-img" src="images/team/sarah-doe.jpg" alt="Sarah Doe" />
-                    <span class="name">Sarah Doe</span>
-                    <span class="function">Webdesigner</span>
+                    <span class="name">TBD</span>
+                    <span class="function">TBD</span>
                     <div class="social-icons">
                         <a href=""><i class="fa fa-twitter"></i></a>
                         <a href=""><i class="fa fa-facebook"></i></a>
@@ -245,308 +207,195 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="parallax-content parallax-newsletter">
-            <div class="row">
-                <h3>About us</h3>
-                <p class="max-width">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                </p>
-            </div>
-		
-			<div class="row gutters">
-				<div class="col span_4">
-					<div class="facts">
-						<div class="icon-number">
-							<i class="fa fa-users"></i>
-							<span class="number">+15000</span>
-						</div>
-						<div class="text">
-							Code lines
-						</div>
-					</div>
-				</div>
-				
-				<div class="col span_4">
-					<div class="facts">
-						<div class="icon-number">
-							<i class="fa fa-thumbs-up"></i>
-							<span class="number">668</span>
-						</div>
-						<div class="text">
-							Positive Reviews
-						</div>
-					</div>
-				</div>
-				
-				<div class="col span_4">
-					<div class="facts">
-						<div class="icon-number">
-							<i class="fa fa-cloud-upload"></i>
-							<span class="number">532</span>
-						</div>
-						<div class="text">
-							Completed Projects
-						</div>
-					</div>
-				</div>
-			</div>
         </div>
     </section>
-	
-	<!-- START SERVICE SECTION -->
+
 	<section id="service">
-		
-		<!-- START WRAPPER -->
         <div class="headline-wrapper">
-			<!-- START ROW -->
             <div class="row">
                 <h1 class="underline">
-					Our Services
+					Our <span class="color">Services</span>
 				</h1>
                 <p class="undertitle">
 					ZydiaLabs is a digital design and development company. We help leading technology companies and your ideas grow faster.
 				</p>
             </div>
+
+	        <div class="row gutters">
+	            <div class="col span_3">
+	                <div class="icon-box">
+	                    <img src="images/service/diamond-icon.png" alt="" />
+	                    <h4>Training and talks</h4>
+	                    <p>
+	                        We provide private training and talks to companies about our areas of expertise. We customize our existing classes to meet the needs of your company.
+	                    </p>
+	                </div>
+	            </div>
+					
+	            <div class="col span_3">
+	                <div class="icon-box">
+	                    <img src="images/service/rocket.png" alt="" />
+	                    <h4>UX/UI & Web design</h4>
+	                    <p>
+	                        We conceptualize and design awesome products & services, focusing mainly on functionality, usability and esthetics. Everything in the way you want it.
+	                    </p>
+	                </div>
+	            </div>
+					
+	            <div class="col span_3">
+	                <div class="icon-box">
+	                    <img src="images/service/paper-plane.png" alt="" />
+	                    <h4>API & Backend development</h4>
+	                    <p>
+	                        We build full-stack applications and web services. We are specialist tuning and optimizing backends for rich web, mobile and third party applications. 
+	                    </p>
+	                </div>
+	            </div>
+
+	            <div class="col span_3">
+	                <div class="icon-box">
+	                    <img src="images/service/paper-plane.png" alt="" />
+	                    <h4>Mobile development</h4>
+	                    <p>
+	                        We design, develop and publish fully interactive and visually appealing mobile apps. We show you how mobile market can make real your dreams.
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+				
+	        <div class="hr margin"></div>
+				
+	        <div class="row gutters">
+	            <div class="col span_8">
+	                <div class="device-slider macbook">
+	                    <ul id="macbook-01">
+	                        <li>
+								<img src="images/service/macbook-slide-01.jpg" alt="" />
+							</li>
+	                        <li>
+								<img src="images/service/macbook-slide-02.jpg" alt="" />
+							</li>
+	                        <li>
+								<img src="images/service/macbook-slide-03.jpg" alt="" />
+							</li>
+	                    </ul>
+	                    <img class="device-img" src="images/layout/device-slider-macbook.png" alt="Macbook Device" />
+	                </div>
+	            </div>
+					
+	            <div class="col span_4 padding-top">
+	                <h4>We care about desktop</h4>
+	                <p>
+	                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+	                </p>
+	                <a class="button">Let's work together</a>
+	            </div>
+	        </div>
+				
+	        <div class="hr margin"></div>
+	            
+	        <div class="row gutters">
+	            <div class="col span_4 padding-top">
+	                <h4>The mobilezers you are looking for</h4>
+	                <p>
+	                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.<br />
+	                    <br />
+	                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+	                </p>
+	                <a class="button">View Details</a>
+	            </div>
+					
+	            <div class="col span_4">
+	                <div class="device-slider iphone">
+	                    <ul id="iphone-01">
+	                        <li>
+								<img src="images/service/iphone-slide-01.jpg" alt="" />
+							</li>
+	                        <li>
+								<img src="images/service/iphone-slide-02.jpg" alt="" />
+							</li>
+	                        <li>
+								<img src="images/service/iphone-slide-03.jpg" alt="" />
+							</li>
+	                    </ul>
+	                    <img class="device-img" src="images/layout/device-slider-iphone.png" alt="Iphone Device" />
+	                </div>
+	            </div>
+
+	            <div class="col span_4 padding-top">
+	                <div class="toggle-box">
+	                    <div class="toggle">
+	                        <a class="header">
+	                            <span class="icon plus color">+</span>
+								<span class="icon minus">-</span>
+	                            <span class="text">
+									Toggle Box Header
+								</span>
+	                        </a>
+	                        <div class="content">
+	                          	<p>
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+								</p>
+	                        </div>
+	                    </div>
+							
+	                    <div class="toggle">
+	                        <a class="header">
+	                            <span class="icon plus color">+</span>
+								<span class="icon minus">-</span>
+	                            <span class="text">
+									100% Responsive
+								</span>
+	                        </a>
+	                        <div class="content">
+	                          	<p>
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+								</p>
+	                        </div>
+	                    </div>
+							
+	                    <div class="toggle">
+	                        <a class="header">
+	                            <span class="icon plus color">+</span>
+								<span class="icon minus">-</span>
+	                            <span class="text">
+									Clean Design
+								</span>
+	                        </a>
+	                        <div class="content">
+	                          	<p>
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+								</p>
+	                        </div>
+	                    </div>
+							
+	                    <div class="toggle">
+	                        <a class="header">
+	                            <span class="icon plus color">+</span>
+								<span class="icon minus">-</span>
+	                            <span class="text">
+									One More Tab
+								</span>
+	                        </a>
+	                        <div class="content">
+	                          	<p>
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+								</p>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>	
+
         </div>
 
-
-		<!-- START ROW -->
-        <div class="row gutters">
-			<!-- START COLUMN 4/12 -->
-            <div class="col span_3">
-				<!-- START ICON BOX -->
-                <div class="icon-box">
-                    <img src="images/service/diamond-icon.png" alt="" />
-                    <h4>Training and talks</h4>
-                    <p>
-                        We provide private training and talks to companies about our areas of expertise. We customize our existing classes to meet the needs of your company.
-                    </p>
-                </div><!-- END ICON BOX -->
-            </div><!-- END COLUMN 4/12 -->
-				
-			<!-- START COLUMN 4/12 -->
-            <div class="col span_3">
-				<!-- START ICON BOX -->
-                <div class="icon-box">
-                    <img src="images/service/rocket.png" alt="" />
-                    <h4>UX/UI & Web design</h4>
-                    <p>
-                        We conceptualize and design awesome products & services, focusing mainly on functionality, usability and esthetics. Everything in the way you want it.
-                    </p>
-                </div><!-- END ICON BOX -->
-            </div><!-- END COLUMN 4/12 -->
-				
-			<!-- START COLUMN 4/12 -->
-            <div class="col span_3">
-				<!-- START ICON BOX -->
-                <div class="icon-box">
-                    <img src="images/service/paper-plane.png" alt="" />
-                    <h4>API & Backend development</h4>
-                    <p>
-                        We build full-stack applications and web services. We are specialist tuning and optimizing backends for rich web, mobile and third party applications. 
-                    </p>
-                </div><!-- END ICON BOX -->
-            </div><!-- END COLUMN 4/12 -->
-
-            <!-- START COLUMN 4/12 -->
-            <div class="col span_3">
-				<!-- START ICON BOX -->
-                <div class="icon-box">
-                    <img src="images/service/paper-plane.png" alt="" />
-                    <h4>Mobile development</h4>
-                    <p>
-                        We design, develop and publish fully interactive and visually appealing mobile apps. We show you how mobile market can make real your dreams.
-                    </p>
-                </div><!-- END ICON BOX -->
-            </div><!-- END COLUMN 4/12 -->
-        </div><!-- END ROW -->
-			
-			
-		<!-- HR WITH MARGIN -->
-        <div class="hr margin"></div>
-			
-			
-		<!-- START ROW -->
-        <div class="row gutters">
-			<!-- START COL 8/12 -->
-            <div class="col span_8">
-				<!-- START MACBOOK DEVICE SLIDER -->
-                <div class="device-slider macbook">
-                    <ul id="macbook-01">
-                        <li>
-							<img src="images/service/macbook-slide-01.jpg" alt="" />
-						</li>
-                        <li>
-							<img src="images/service/macbook-slide-02.jpg" alt="" />
-						</li>
-                        <li>
-							<img src="images/service/macbook-slide-03.jpg" alt="" />
-						</li>
-                    </ul>
-                    <img class="device-img" src="images/layout/device-slider-macbook.png" alt="Macbook Device" />
-                </div><!-- END MACBOOK DEVICE SLIDER -->
-            </div><!-- END COL 8/12 -->
-				
-			<!-- START COLUMN 4/12 -->
-            <div class="col span_4 padding-top">
-                <h4>Macbook Slider</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-                </p>
-                <a class="button">View Details</a>
-            </div><!-- END COLUMN 4/12 -->
-        </div><!-- END ROW -->
-			
-			
-		<!-- HR WITH MARGIN -->
-        <div class="hr margin"></div>
-            
-			
-		<!-- START ROW -->
-        <div class="row gutters">
-			<!-- START COLUMN 4/12 -->
-            <div class="col span_4 padding-top">
-                <h4>iPhone Slider</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.<br />
-                    <br />
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-                </p>
-                <a class="button">View Details</a>
-            </div><!-- END COLUMN 4/12 -->
-				
-			<!-- START COLUMN 4/12 -->
-            <div class="col span_4">
-                <!-- START IPHONE DEVICE SLIDER -->
-                <div class="device-slider iphone">
-                    <ul id="iphone-01">
-                        <li>
-							<img src="images/service/iphone-slide-01.jpg" alt="" />
-						</li>
-                        <li>
-							<img src="images/service/iphone-slide-02.jpg" alt="" />
-						</li>
-                        <li>
-							<img src="images/service/iphone-slide-03.jpg" alt="" />
-						</li>
-                    </ul>
-                    <img class="device-img" src="images/layout/device-slider-iphone.png" alt="Iphone Device" />
-                </div><!-- END IPHONE DEVICE SLIDER -->
-            </div><!-- END COLUMN 4/12 -->
-
-			<!-- START COLUMN 4/12 -->
-            <div class="col span_4 padding-top">
-				<!-- START TOGGLE BOX -->
-                <div class="toggle-box">
-						
-					<!-- START TOGGLE -->
-                    <div class="toggle">
-						<!-- START TOGGLE HEADER -->
-                        <a class="header">
-                            <span class="icon plus">+</span>
-							<span class="icon minus">-</span>
-                            <span class="text">
-								Toggle Box Header
-							</span>
-                        </a><!-- END TOGGLE HEADER -->
-						<!-- START TOGGLE CONTENT -->
-                        <div class="content">
-                          	<p>
-								 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-							</p>
-                        </div><!-- END TOGGLE CONTENT -->
-                    </div><!-- END TOGGLE -->
-						
-					<!-- START TOGGLE -->
-                    <div class="toggle">
-						<!-- START TOGGLE HEADER -->
-                        <a class="header">
-                            <span class="icon plus">+</span>
-							<span class="icon minus">-</span>
-                            <span class="text">
-								100% Responsive
-							</span>
-                        </a><!-- END TOGGLE HEADER -->
-						<!-- START TOGGLE CONTENT -->
-                        <div class="content">
-                          	<p>
-								 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-							</p>
-                        </div><!-- END TOGGLE CONTENT -->
-                    </div><!-- END TOGGLE -->
-						
-					<!-- START TOGGLE -->
-                    <div class="toggle">
-						<!-- START TOGGLE HEADER -->
-                        <a class="header">
-                            <span class="icon plus">+</span>
-							<span class="icon minus">-</span>
-                            <span class="text">
-								Clean Design
-							</span>
-                        </a><!-- END TOGGLE HEADER -->
-						<!-- START TOGGLE CONTENT -->
-                        <div class="content">
-                          	<p>
-								 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-							</p>
-                        </div><!-- END TOGGLE CONTENT -->
-                    </div><!-- END TOGGLE -->
-						
-					<!-- START TOGGLE -->
-                    <div class="toggle">
-						<!-- START TOGGLE HEADER -->
-                        <a class="header">
-                            <span class="icon plus">+</span>
-							<span class="icon minus">-</span>
-                            <span class="text">
-								One More Tab
-							</span>
-                        </a><!-- END TOGGLE HEADER -->
-						<!-- START TOGGLE CONTENT -->
-                        <div class="content">
-                          	<p>
-								 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-							</p>
-                        </div><!-- END TOGGLE CONTENT -->
-                    </div><!-- END TOGGLE -->
-                </div><!-- END TOGGLE BOX -->
-					
-					
-				<!-- START SKILLBAR -->
-				<div data-percent="100" class="skillbar margin-top">
-					<span class="skill">Responisve</span>
-					<span class="number">100%</span>
-					<span class="percent-bg"></span>
-				</div><!-- END SKILLBAR -->
-				<!-- START SKILLBAR -->
-				<div data-percent="74" class="skillbar">
-					<span class="skill">Colors</span>
-					<span class="number">74%</span>
-					<span class="percent-bg"></span>
-				</div><!-- END SKILLBAR -->
-				<!-- START SKILLBAR -->
-				<div data-percent="86" class="skillbar">
-					<span class="skill">Clean Design</span>
-					<span class="number">86%</span>
-					<span class="percent-bg"></span>
-				</div><!-- END SKILLBAR -->
-            </div><!-- END COLUMN 4/12 -->
-        </div><!-- END ROW -->		
-
-        <!-- START PARALLAX CONTENT -->
 		<div class="parallax-content parallax-clients">
-			
-			<!-- START ROW -->
 			<div class="row">
-				<h3>Our Clients</h3>
-				<p class="max-width">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+				<h1 class="underline">Our <span class="color">Clients</span></h1>
+				<p class="max-width undertitle">
+					We are dedicated to creating the most useful content for startups, businesses, and large enterprises to help you succeed on your next digital product.
 				</p>
 				
-				<!-- START CLIENT CAROUSEL -->
 			    <ul class="carousel" id="client-carousel">
 			        <li><a><img src="images/clients/logo.png" alt="" /></a></li>
 					<li><a><img src="images/clients/logo.png" alt="" /></a></li>
@@ -556,62 +405,15 @@
 					<li><a><img src="images/clients/logo.png" alt="" /></a></li>
 					<li><a><img src="images/clients/logo.png" alt="" /></a></li>
 					<li><a><img src="images/clients/logo.png" alt="" /></a></li>
-			    </ul><!-- END CLIENT CAROUSEL -->
-			</div><!-- END ROW -->
-			
-		</div><!-- END PARALLAX CONTENT -->
-	</section>	<!-- END SERVICE SECTION -->
+			    </ul>
+			</div>
+		</div>
+	</section>
 
-	<!-- START FOOTER -->
-    <footer id="contact">
-
-		<!-- START WRAPPER -->
-        <div class="headline-wrapper contact-headline">
-			<!-- START ROW -->
-            <div class="row">
-                <h1 class="underline">
-					Contact
-				</h1>
-                <p class="undertitle">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum sociis natoque penatibus et magnis dis parturient montes.
-				</p>
-            </div>
-        </div>
-		
-		
-		<!-- START PARALLAX CONTENT -->
-        <div class="parallax-content parallax-contact">
-			
-			<!-- START ROW -->
-            <div class="row">
-                <!-- START CONTACT FORM -->
-                <div class="contact-form">
-                    <div id='contact-error' class="alert-box error" style="display: none;">
-                        <span>Error Message</span>
-                        <a class="close">x</a>
-                    </div>
-                    <div id='contact-success' class="alert-box success" style="display: none;">
-                        <span>Success Message</span>
-                        <a class="close">x</a>
-                    </div>
-                    <form id='contact-form' method="POST">
-                        <input name="name" type="text" class="text cleartext" placeholder="Your Name" />
-                        <input name="email" type="text" class="text cleartext" placeholder="Your eMail Address" />
-                        <textarea name="message"></textarea>
-                        <input type="submit" class="submit" value="Subscribe" name="" />
-                    </form>
-                </div><!-- END CONTACT FORM -->
-            </div><!-- END ROW -->
-			
-        </div><!-- END PARALLAX CONTENT -->
-	
-			
-		<!-- START ROW -->
+    <footer id="contact">	
         <div class="row gutters contact-row">
-			<!-- START COLUMN 4/12 -->
             <div class="col span_4">
                 <h4>Tags</h4>
-				<!-- START TAGS -->
                 <div class="tags">
 					<a class="button small">Responsive</a>
 					<a class="button small">Template</a>
@@ -621,78 +423,64 @@
 					<a class="button small">Minimal</a>
 					<a class="button small">Ajax Loader</a>
 					<a class="button small">One Page</a>
-				</div><!-- END ROW -->
-            </div><!-- END COLUMN 4/12 -->
-				
-			<!-- START COLUMN 4/12 -->
+				</div>
+            </div>
+			
             <div class="col span_4">
                 <h4>About</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 </p>
-            </div><!-- END COLUMN 4/12 -->
-				
-			<!-- START COLUMN 4/12 -->
+            </div>
+			
             <div class="col span_4">
                 <h4>Contact Details</h4>
-				<!-- START CONTACT DETAILS -->
                 <div class="contact-details">
-                    <!-- START DETAIL -->
                     <span class="detail">
                         <span class="icon"><i class="fa fa-map-marker"></i></span>
-                        <span class="text">75 Germany West Bridge<br /> Amazing Street 10/220</span>
-                    </span><!-- END DETAIL -->
+                        <span class="text"><a href="">@ZydiaLabs</a> on Twitter</span>
+                    </span>
 
-                    <!-- START DETAIL -->
                     <span class="detail">
                         <span class="icon"><i class="fa fa-mobile"></i></span>
-                        <span class="text">+49 00 123 456 7</span>
-                    </span><!-- END DETAIL -->
+                        <span class="text"><a href="">ZydiaLabs</a> on Facebook</span>
+                    </span>
 
-                    <!-- START DETAIL -->
+                    <span class="detail">
+                        <span class="icon"><i class="fa fa-mobile"></i></span>
+                        <span class="text"><a href="">ZydiaLabs</a> on Github</span>
+                    </span>
+
                     <span class="detail">
                         <span class="icon"><i class="fa fa-envelope"></i></span>
-                        <span class="text"><a href="">email@youradress.com</a></span>
-                    </span><!-- END DETAIL -->
+                        <span class="text"><a href="mailto:contact@zydialabs.com">contact@zydialabs.com</a></span>
+                    </span>
 
-                    <!-- START DETAIL -->
                     <span class="detail">
                         <span class="icon"><i class="fa fa-link"></i></span>
-                        <span class="text"><a href="">www.youradress.com</a></span>
-                    </span><!-- END DETAIL -->
-                </div><!-- END CONTACT DETAILS -->
-            </div><!-- START COLUMN 4/12 -->
-        </div><!-- END ROW -->
+                        <span class="text"><a href="">www.zydialabs.com</a></span>
+                    </span>
+                </div>
+            </div>
+        </div>
 
-
-        <!-- START GOOGLE MAP -->
-        <div id="googlemap"></div><!-- END GOOGLE MAP -->
-
-
-		<!-- START BOTTOM BOX -->
 		<div class="bottom-box">
-            <!-- START ROW -->
 			<div class="row">
-				ZydiaLabs © 2015
-			</div><!-- END ROW -->
-		</div><!-- END BOTTOM BOX -->
-    </footer><!-- END FOOTER -->
+				Zydia<span class="color">Labs</span> © 2015
+			</div>
+		</div>
+    </footer>
 	
-</div><!-- END PAGE WRAPPER -->
+</div>
 
-<script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="scripts/SmoothScroll.js"></script>
 <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
 <script type="text/javascript" src="scripts/jquery.bxslider.js"></script>
 <script type="text/javascript" src="scripts/jquery.hoverdir.js"></script>
 <script type="text/javascript" src="scripts/jquery.mixitup.js"></script>
-<script type="text/javascript" src="scripts/jquery.fitvids.js"></script>
 <script type="text/javascript" src="scripts/jquery.carouFredSel-6.2.1.js"></script>
 <script type="text/javascript" src="scripts/respond.min.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyClmQvBU5eqTS3k_BEToj9aWlCpBgrGhmw&sensor=false"></script>
-<script type="text/javascript" src="scripts/jquery.googlemap.js"></script>
 <script type="text/javascript" src="scripts/theme.script.js"></script>
-<script type="text/javascript" src="scripts/theme.mail.js"></script>
 <script type="text/javascript" src="scripts/theme.settings.js"></script>
 
 </body>
