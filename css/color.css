@@ -33,6 +33,10 @@ input.submit,
     margin-bottom: 0;
 }
 
+.no-margin-top {
+    margin-top: 0;
+}
+
 .button:hover,
 input.submit:hover {
     background: #009CDF;
