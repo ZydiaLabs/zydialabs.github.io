@@ -93,7 +93,7 @@ body {
     background-size: cover;
 }
 .parallax-clients {
-    background-image: url('../images/banner/blur_background.jpg');
+    background-image: url('../images/banner/background-2.png');
 }
 .parallax-comments {
     background-image: url('../images/banner/blur_background.jpg');
@@ -225,7 +225,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url('../images/banner/blur_background.jpg');
+    background-image: url('../images/banner/blur_background.png');
 }
 
 #banner .banner-container {
@@ -603,6 +603,9 @@ body {
 .team-member .member-img {
     width: 100%;
     max-width: 100%;
+    -moz-box-shadow: 0 0 5px 5px #2A2A2A;
+    -webkit-box-shadow: 0 0 5px 5px #2A2A2A;
+    box-shadow: 0 0 5px 5px #2A2A2A;
 }
 
 .team-member span {
@@ -1411,6 +1414,10 @@ input.submit,
 .no-padding {
     margin: 0;
     padding: 0;
+}
+
+.low-top-margin {
+    margin-top: 75px;
 }
 
 .low-margin {
