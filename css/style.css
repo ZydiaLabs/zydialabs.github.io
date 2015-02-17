@@ -1428,6 +1428,7 @@ input.submit:hover {
 
 #work-preview .layer {
     background-color: #009CDF;
+    opacity: 0.6;
 }
 
 #page-preloader,
