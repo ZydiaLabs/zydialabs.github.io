@@ -37,6 +37,15 @@ input.submit,
     margin-top: 0;
 }
 
+.no-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.img-separator {
+    max-width: 200px;
+}
+
 .button:hover,
 input.submit:hover {
     background: #009CDF;
