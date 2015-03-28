@@ -76,7 +76,11 @@ body {
 	margin-bottom: 80px;
 	padding: 80px 0;
 	text-align: center;
-	background: #009CDF;
+	/*background: #009CDF;*/
+}
+
+.bx-pager {
+  display: none;
 }
 
 .parallax-content {
@@ -93,7 +97,8 @@ body {
     background-size: cover;
 }
 .parallax-clients {
-    background-image: url('../images/banner/background-2.png');
+    background: #009CDF;
+    background-image: url('../images/banner/background-blue.jpg');
 }
 .parallax-comments {
     background-image: url('../images/banner/blur_background.jpg');
@@ -218,6 +223,7 @@ body {
     text-align: center;
 }
 #banner.parallax {
+    background: #009CDF;
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -225,7 +231,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url('../images/banner/blur_background.png');
+    background-image: url('../images/banner/background-blue.jpg');
 }
 
 #banner .banner-container {
@@ -244,11 +250,13 @@ body {
     font-size: 5em;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    color: #fff;
 }
 #banner .small-text {
     display: block;
     font-size: 1.5em;
     text-transform: uppercase;
+    color: #fff;
 }
 
 #banner .button-wrapper {
@@ -402,6 +410,18 @@ body {
   70% {
     transform: translateY(-30px);
   }
+}
+
+body {
+    background: #009CDF;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../images/banner/background-black.png');
 }
 
 .work-tabs {
@@ -597,7 +617,7 @@ body {
 .team-member {
     padding: 0 0 45px 0;
     text-align: center;
-    background: #1C1E20;
+    /*background: #1C1E20;*/
 }
 
 .team-member .member-img {
@@ -684,7 +704,7 @@ body {
 
 .bottom-box {
 	padding: 20px 0;
-	background: #1C1E20;
+	/*background: #1C1E20;*/
 	text-align: center;
 	font-size: 0.85em;
 	color: rgba(255,255,255,0.4);
@@ -1396,12 +1416,12 @@ input.submit,
 .maximage-next:hover,
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-controls-direction a:hover {
-    background-color: #009CDF;
+    /*background-color: #009CDF;*/
 }
 
-.headline-wrapper {
+/*.headline-wrapper {
     background: #1C1E20;
-}
+}*/
 
 .no-margin-bottom {
     margin-bottom: 0;
@@ -1440,7 +1460,6 @@ input.submit:hover {
 
 #page-preloader,
 #work-wrapper,
-.team-member,
 #blog-preview li,
 #blog-wrapper,
 .pricing-table,
@@ -1465,7 +1484,7 @@ div.map-popup {
 }
 
 .bottom-box {
-    background-color: #1C1E20;
+    /*background-color: #1C1E20;*/
 }
 
 input.text, textarea {

@@ -3,30 +3,6 @@
 	
     var navistatus = 0;
 
-    $("#open-nav").click(function(){
-        if(navistatus==0)
-        {
-            $("#header").clearQueue().animate({
-                left: '0'
-            },500,'swing');
-            $("#page-wrapper").clearQueue().animate({
-                left: '260px'
-            },500,'swing');
-
-            navistatus = 1;
-        } else {
-            $("#page-wrapper").clearQueue().animate({
-                left: '0'
-            },600,'easeOutBounce');
-            $("#header").clearQueue().animate({
-                left: '-260px'
-            },600,'easeOutBounce');
-
-            navistatus = 0;
-        }
-    });
-
-
     $(".scrollto").click(function(){
         var topoffset = 0;
         $('html, body').clearQueue().animate({

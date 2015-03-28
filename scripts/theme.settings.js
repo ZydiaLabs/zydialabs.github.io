@@ -14,11 +14,12 @@
     });
 
     $('#macbook-01').bxSlider({
+        pause: 15000,
         slideWidth: 1200,
         minSlides: 1,
         maxSlides: 1,
         controls: false,
-        auto: true
+        auto: false
     });
 
     $('#iphone-01').bxSlider({
