@@ -623,9 +623,6 @@ body {
 .team-member .member-img {
     width: 100%;
     max-width: 100%;
-    -moz-box-shadow: 0 0 5px 5px #2A2A2A;
-    -webkit-box-shadow: 0 0 5px 5px #2A2A2A;
-    box-shadow: 0 0 5px 5px #2A2A2A;
 }
 
 .team-member span {
@@ -636,6 +633,7 @@ body {
     padding: 20px 0 0 0;
     font-size: 1.6em;
     font-style: italic;
+    color: #009CDF;
 }
 
 .team-member .function {
@@ -1454,7 +1452,7 @@ input.submit:hover {
 }
 
 #work-preview .layer {
-    background-color: #009CDF;
+    background-color: #001017;
     opacity: 0.6;
 }
 
