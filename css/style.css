@@ -621,8 +621,11 @@ body {
 }
 
 .team-member .member-img {
-    width: 100%;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
     max-width: 100%;
+    border: 5px solid #323838;
 }
 
 .team-member span {
